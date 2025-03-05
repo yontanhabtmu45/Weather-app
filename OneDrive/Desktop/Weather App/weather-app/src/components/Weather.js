@@ -73,14 +73,12 @@ function Weather() {
 
       //  console.log(data);
       const icon = allIcons[data.weather[0].icon] || sunnyIcon;
-      const cloth = allClothes[data.weather[0].icon || sun];
       setWeatherData({
         humidity: data.main.humidity,
         windSpeed: data.wind.speed,
         temprature: Math.floor(data.main.temp),
         location: data.name,
         icon: icon,
-        cloth: cloth,
       });
     } catch (error) {
       setWeatherData(false);
