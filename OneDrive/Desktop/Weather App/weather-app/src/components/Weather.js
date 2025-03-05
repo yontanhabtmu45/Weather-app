@@ -15,27 +15,6 @@ function Weather() {
   const [WeatherData, setWeatherData] = useState(false);
   const [cityData, setCityData] = useState("");
 
-  var sun = [
-    "Lightweight Shirts",
-    "Shorts or Chinos",
-    "Sunglasses",
-    "Hat",
-    "Footwear",
-    "Sunscreen",
-  ];
-  var cloud = [
-    "Light Jacket or Sweater",
-    "Long-Sleeve Shirt",
-    "Jeans or Chinos",
-    "Footwear",
-  ];
-  var rain = [
-    "Waterproof Jacket",
-    "Layered Clothing",
-    "Waterproof Pants",
-    "Footwear",
-    "Umbrella",
-  ];
 
   const allIcons = {
     "01d": sunnyIcon,
@@ -54,34 +33,6 @@ function Weather() {
     "13n": snowIcon,
   };
 
-  const allClothes = {
-    "01d": sun,
-    "03n": cloud,
-    "10n": rain,
-    // forWomen: {
-    //   sunny: [
-    //     "Sundresses",
-    //     "Skirts or Shorts",
-    //     "Tank Tops or Blouses",
-    //     "Sunglasses",
-    //     "Hat",
-    //     "Footwear",
-    //   ],
-    //   cloudy: [
-    //     "Cardigan or Light Jacket",
-    //     "Long-Sleeve Top",
-    //     "Jeans, Leggings, or Skirt",
-    //     "Layering",
-    //   ],
-    //   rainny: [
-    //     "Raincoat or Trench Coat",
-    //     "Layering",
-    //     "Waterproof Pants or Leggings",
-    //     "Footwear",
-    //     "Umbrella",
-    //   ],
-    // },
-  };
 
   //   const location = async () => {
 
