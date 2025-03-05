@@ -42,7 +42,7 @@
     color: #fff;
     font-size: 40px;
 }
-.weather-data{
+.weather-data, .clothes{
     width: 100%;
     margin-top: 40px;
     color: #fff;
@@ -62,4 +62,23 @@
 .col img{
     width: 26px;
     margin-top: 10px;
+}
+
+.city-address{
+    margin-top: 14px;
+    color: #fafafa;
+    place-content: center;
+}
+.prefered-dress {
+    margin-top: 20px;
+    color: #fafafa;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+.clothes {
+    display: flex;
+    justify-content: space-around;
+    gap: 28px;
+    flex-wrap: wrap;
 }
