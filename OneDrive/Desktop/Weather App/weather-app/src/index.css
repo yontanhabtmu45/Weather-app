@@ -4,10 +4,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  place-self: center;
 }
 .App {
   min-height: 100vh;
+  min-width: 100vw;
   display: grid;
-  background: #e2d4ff;
+  background-image: url('./assets/image/bg-2.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
 }
