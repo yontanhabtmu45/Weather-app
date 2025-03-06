@@ -10,7 +10,6 @@
   min-height: 100vh;
   min-width: 100vw;
   display: grid;
-  /* background: linear-gradient(45deg, #1673ec, #1ba3e7b4); */
   background-image: url('./assets/image/bg-2.jpg');
   background-position: top;
   background-repeat: no-repeat;
