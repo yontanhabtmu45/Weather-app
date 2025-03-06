@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "//github.com/yontanhabtmu45/Weather-app.git/static/css/main.bcffb3d3.css",
+    "main.js": "//github.com/yontanhabtmu45/Weather-app.git/static/js/main.eb811584.js",
+    "static/media/bg-2.jpg": "//github.com/yontanhabtmu45/Weather-app.git/static/media/bg-2.6287032a847ceee1dd25.jpg",
+    "index.html": "//github.com/yontanhabtmu45/Weather-app.git/index.html",
+    "main.bcffb3d3.css.map": "//github.com/yontanhabtmu45/Weather-app.git/static/css/main.bcffb3d3.css.map",
+    "main.eb811584.js.map": "//github.com/yontanhabtmu45/Weather-app.git/static/js/main.eb811584.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcffb3d3.css",
+    "static/js/main.eb811584.js"
+  ]
+}
