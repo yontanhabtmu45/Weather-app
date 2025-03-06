@@ -51,7 +51,6 @@ function Weather() {
 
       
 
-
       if (!response.ok) {
         alert(data.message);
         return;
