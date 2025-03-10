@@ -4,12 +4,13 @@
 }
 
 .header_container{
-    background-color: #1a1a1a;
+    background-color: #131921;
     display: flex;
     gap: 10px;
     align-items: center;
     color: white;
     height: 70px;
+    cursor: pointer;
 }
 .logo_container {
     display: flex;
@@ -50,13 +51,19 @@
     outline: 1px solid white;
 }
 .search select{
+    cursor: pointer;
     border: none;
 }
 .search input {
     border: 1px solid white;
     width: 100%;
     margin-right: -2px;
-    /* border: none; */
+    border: none;
+}
+.search svg {
+    padding: 6px;
+    background: #febd69;
+    color: #1a1a1a;
 }
 .search svg:hover{
     background-color: #d49644;
@@ -80,10 +87,11 @@
 }
 .language {
     width: 100px;
-    display: none;
+    display: flex;
     padding: 10px;
 }
 .language select {
+    cursor: pointer;
     background-color: #1a1a1a;
     border: none;
     color: white;
@@ -94,7 +102,7 @@
 .cart {
     position: relative;
 }
-.cart img {
+.cart span {
     position: absolute;
     font-weight: bold;
     top: 0px;
@@ -102,4 +110,42 @@
     background-color: #1a1a1a;
     left: 16px;
     color: orange;
+}
+.order_container a:hover,
+.delivery:hover,
+.logo_container a:hover,
+.lower_container ul li:hover{ 
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.lower_container {
+    background-color: #232F3E;
+    color: white;
+}
+.lower_container ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.lower_container ul li {
+    padding: 8px;
+}
+.lower_container ul li:first-child {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .header_container {
+        display: flex;
+        flex-direction: column !important;
+        height: auto;
+    }
+    .lower_container ul li:not(:first-child){
+        display: none;
+    }
+    .language{
+        display: none;
+    }
 }
