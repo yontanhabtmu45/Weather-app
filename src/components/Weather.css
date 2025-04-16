@@ -142,6 +142,7 @@
 @media screen and (max-width: 768px) {
   .wrapper {
     display: block;
+    margin: 16px 28px;
   }
   .daily-info {
     display: none;
