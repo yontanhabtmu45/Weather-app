@@ -140,13 +140,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  body > *:not(.wrapper) {
+    display: none;
+  }
+
   .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 16px 48px;
-  }
-  .daily-info {
-    display: none;
   }
 }
