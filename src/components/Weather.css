@@ -141,8 +141,10 @@
 
 @media screen and (max-width: 768px) {
   .wrapper {
-    display: block;
-    margin: 16px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 48px;
   }
   .daily-info {
     display: none;
