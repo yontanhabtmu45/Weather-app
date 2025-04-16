@@ -7,7 +7,7 @@
   place-self: center;
 }
 .App {
-  max-height: 100vh;
+  min-height: 100vh;
   min-width: 100vw;
   display: grid;
   background-image: url('./assets/image/bg-2.jpg');
