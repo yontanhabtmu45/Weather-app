@@ -7,7 +7,7 @@
   place-self: center;
 }
 .App {
-  min-height: 100vh;
+  max-height: 100vh;
   min-width: 100vw;
   display: grid;
   background-image: url('./assets/image/bg-2.jpg');
@@ -15,4 +15,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 480px) {
+  .App {
+    max-height: 100vh;
+    min-width: 100vw;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/image/bg-2.jpg');
+    background-position: center; 
+    background-size: cover;
+    padding: 10px; 
+  }
+
+  * {
+    font-size: 14px; 
+  }
+
+  body {
+    overflow-x: hidden; 
+  }
 }
